@@ -24,27 +24,32 @@
 
   .streamlist-container form {
     margin-top: 20px;
-  }
-  
-  .streamlist-container input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.streamlist-container input {
     padding: 10px;
-    margin-right: 10px;
+    margin-bottom: 10px; /* Add space below the input field */
     border-radius: 5px;
     border: 1px solid #8f98f5;
-  }
-  
-  .streamlist-container button {
+}
+
+.streamlist-container button {
     padding: 10px 20px;
+    margin-bottom: 10px; /* Add space between buttons */
     border-radius: 5px;
     background-color: #0056b3;
     color: rgb(254, 254, 254);
-    border:rgb(3, 3, 170);
+    border: rgb(3, 3, 170);
     cursor: pointer;
-  }
-  
-  .streamlist-container button:hover {
+}
+
+.streamlist-container button:hover {
     background-color: #0a0257;
-  }
+}
+
 
   .movies-list {
     margin-top: 20px;

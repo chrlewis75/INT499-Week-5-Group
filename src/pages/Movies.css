@@ -28,3 +28,49 @@
     text-decoration: line-through;
     color: gray;
 }
+
+.movie-buttons {
+    display: flex;
+    gap: 10px; /* Equal space between buttons */
+    margin-left: 10px; /* Space between movie title and buttons */
+}
+
+.movie-buttons button {
+    padding: 5px 10px;
+    background-color: #0056b3; /* Blue background */
+    color: white; /* White text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.movie-buttons button:hover {
+    background-color: #0a0257; /* Darker blue on hover */
+}
+
+/* Add margin to the movie title for spacing */
+.movie-item span {
+    margin-right: 10px; /* Space between movie title and buttons */
+}
+
+/* Style for the edit input and buttons */
+.edit-buttons {
+    display: flex;
+    gap: 10px; /* Equal space between save and cancel buttons */
+    margin-top: 10px; /* Space above the edit buttons */
+}
+
+.edit-buttons button {
+    padding: 5px 10px;
+    background-color: #0056b3; /* Blue background */
+    color: white; /* White text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.edit-buttons button:hover {
+    background-color: #0a0257; /* Darker blue on hover */
+}

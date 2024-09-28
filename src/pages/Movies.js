@@ -22,7 +22,6 @@ const Movies = () => {
     }
   }, [movies]);
 
-  
   const handleDelete = (id) => {
     const updatedMovies = movies.filter((movie) => movie.id !== id); // Remove movie by id
     setMovies(updatedMovies); // Update movie list
@@ -57,7 +56,7 @@ const Movies = () => {
           movies.map((movie) => (
             <div key={movie.id} className={`movie-item ${movie.completed ? 'completed' : ''}`}>
               {editingID === movie.id ? (
-                <div>
+                <div className="edit-buttons"> {/* Updated class for the edit buttons */}
                   <input
                     type="text"
                     value={editInput}
@@ -69,11 +68,13 @@ const Movies = () => {
               ) : (
                 <>
                   <span>{movie.title}</span>
-                  <button onClick={() => handleComplete(movie.id)}>
-                    {movie.completed ? 'Undo Complete' : 'Complete'}
-                  </button>
-                  <button onClick={() => handleEdit(movie.id, movie.title)}>Edit</button>
-                  <button onClick={() => handleDelete(movie.id)}>Delete</button>
+                  <div className="movie-buttons"> {/* Added class for consistent button spacing */}
+                    <button onClick={() => handleComplete(movie.id)}>
+                      {movie.completed ? 'Undo Complete' : 'Complete'}
+                    </button>
+                    <button onClick={() => handleEdit(movie.id, movie.title)}>Edit</button>
+                    <button onClick={() => handleDelete(movie.id)}>Delete</button>
+                  </div>
                 </>
               )}
             </div>

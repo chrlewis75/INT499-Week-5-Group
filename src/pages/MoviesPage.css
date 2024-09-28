@@ -18,11 +18,42 @@
 }
 
 .movie-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-bottom: 15px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8); /* Light background for better readability */
+    border-radius: 10px; /* Rounded edges */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.movie-item:hover {
+    transform: translateY(-10px); /* Float effect on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add shadow for depth */
 }
 
 .movie-item span {
     color: black;
+}
+
+.movie-buttons {
+    display: flex;
+    gap: 10px; /* Equal space between buttons */
+}
+
+.movie-buttons button {
+    padding: 5px 10px;
+    background-color: #0056b3; /* Blue background */
+    color: white; /* White text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.movie-buttons button:hover {
+    background-color: #0a0257; /* Darker blue on hover */
 }
 
 .save-button {
