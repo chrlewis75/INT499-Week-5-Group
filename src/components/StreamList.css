@@ -1,0 +1,117 @@
+.streamlist-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-image: url('../images/movieBackground.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+  }
+  
+  .streamlist-container .logo {
+    width: 500px;
+    margin-bottom: 10px;
+  }
+
+  .streamlist-container h1 {
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black, -1px -1px 2px black, 1px -1px 2px black, -1px 1px 2px black;
+  }
+
+  .streamlist-container form {
+    margin-top: 20px;
+  }
+  
+  .streamlist-container input {
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #8f98f5;
+  }
+  
+  .streamlist-container button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #0056b3;
+    color: rgb(254, 254, 254);
+    border:rgb(3, 3, 170);
+    cursor: pointer;
+  }
+  
+  .streamlist-container button:hover {
+    background-color: #0a0257;
+  }
+
+  .movies-list {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.85);
+    border-radius: 10px;
+    color: white;
+    width: 80%;
+    max-width: 600px;
+    text-align: left;
+  }
+
+  .movie-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+    background-color: white;
+  }
+
+  .movie-item:last-child {
+    border-bottom: none;
+  }
+
+  .no-movies-message {
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black, -1px -1px 2px black, 1px -1px 2px black, -1px 1px 2px black;
+  }
+
+  .add-movie-message {
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black, -1px -1px 2px black, 1px -1px 2px black, -1px 1px 2px black;
+  }
+
+  .popular-movies {
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black, -1px -1px 2px black, 1px -1px 2px black, -1px 1px 2px black;
+  }
+
+  .streamlist-container a {
+    color: #007bff; /* Blue color for the link */
+    text-decoration: none; /* Remove underline */
+}
+
+.streamlist-container a:hover {
+    color: #0056b3; /* Darker blue on hover */
+    text-decoration: underline; /* Add underline on hover */
+}
+
+.login-message {
+  color: white; /* Match color with popular-movies */
+  font-size: 1.2em;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px black, -1px -1px 2px black, 1px -1px 2px black, -1px 1px 2px black;
+}
+
+.login-message a {
+  color: #007bff; /* Match link color with popular-movies */
+  text-decoration: none; /* Remove underline */
+}
+
+.login-message a:hover {
+  color: #0056b3; /* Darker blue on hover */
+  text-decoration: underline; /* Add underline on hover */
+}

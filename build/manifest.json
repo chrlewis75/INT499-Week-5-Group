@@ -1,0 +1,22 @@
+{
+    "name": "StreamList Movies", // Name of the PWA
+    "short_name": "StreamList", // Shortened version of the name
+    "description": "A web application for people to create and manage their unique cloud-based list to steam movies",
+    "start_url": "/", // The URL for where the app will start when opened
+    "display": "standalone", // Standalone allows for an app-like experience
+    "background_color": "#007BFF", // Color during app launch
+    "theme_color": "#000000", // Color theme
+    "icons": [ // App icons for small and large screen sizes
+      {
+        "src": "/icons/pngegg192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/icons/pngegg512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
+  

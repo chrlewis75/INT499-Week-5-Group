@@ -1,0 +1,67 @@
+/* Center the credit card form container in the viewport */
+.credit-card-container {
+    display: flex;
+    flex-direction: column;  /* Stack the header and form vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center;     /* Center horizontally */
+    min-height: 100vh;       /* Full viewport height */
+    text-align: center;      /* Center text */
+  }
+  
+  /* Style for the header */
+  .credit-card-container h2 {
+    text-align: center;
+    margin-bottom: 20px; /* Add space between the header and form */
+    font-size: 24px;     /* Adjust the font size if needed */
+  }
+  
+  /* Style for the form itself */
+  .credit-card-form {
+    display: flex;
+    flex-direction: column;  /* Stack form elements vertically */
+    justify-content: center;
+    align-items: center;     /* Center form content */
+    width: 100%;
+    max-width: 400px;        /* Limit form width */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin: 0 auto;          /* Ensure horizontal centering */
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 8px;
+    text-align: left; /* Align labels to the left */
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style for the submit button */
+  .complete-purchase-button {
+    background-color: #0056b3;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%; /* Make the button fill the width of the form */
+  }
+  
+  .complete-purchase-button:hover {
+    background-color: #004080;
+  }
+  

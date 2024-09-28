@@ -1,0 +1,41 @@
+.MoviesPage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    background-image: url('../images/imageFilmStrip.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    color: #fff;
+}
+
+.movie-list {
+    list-style: none;
+    padding: 0;
+}
+
+.movie-item {
+    margin-bottom: 15px;
+}
+
+.movie-item span {
+    color: black;
+}
+
+.save-button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.save-button:hover {
+    background-color: #0a0257;
+}

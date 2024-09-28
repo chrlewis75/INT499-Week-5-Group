@@ -1,0 +1,30 @@
+/*About*/
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px; /* Add padding for some space around the content */
+    max-width: 800px; /* Limit the width to make the content easier to read */
+    margin: 0 auto;
+  }
+  
+  .about img {
+    margin: 20px 0; /* Add more space around the logo */
+    width: 50%; /* Adjust logo size if needed */
+    height: auto; /* Maintain the aspect ratio */
+  }
+  
+  .about p {
+    font-size: 1.2rem; /* Increase font size for better readability */
+    line-height: 1.6; /* Improve line spacing for easier reading */
+    text-align: justify; /* Align the text to improve flow */
+    margin: 15px 0;
+    color: #333; /* Change text color for better contrast */
+  }
+  
+  body {
+    font-family: Arial, sans-serif; /* Use a clean, legible font */
+    background-color: #f7f7f7; /* Light background color to reduce eye strain */
+  }
+  
